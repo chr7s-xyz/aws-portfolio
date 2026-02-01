@@ -44,8 +44,8 @@ Created a CloudFront distribution pointing to the S3 bucket for faster content d
 
 Challenge:
 CloudFront caching caused delayed updates of website changes.
-  -Invalidated cache in CloudFront after each website update.
-  -Used versioning in file name as invalidation didnt work for changes in my js file
+  - Invalidated cache in CloudFront after each website update.
+  - Used versioning in file name as invalidation didnt work for changes in my js file
 
 
 Step 3: Setup DynamoDB Table
