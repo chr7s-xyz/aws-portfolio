@@ -25,7 +25,8 @@ A hands-on AWS project demonstrating EC2, S3, IAM, Terraform, and other core AWS
 - Terraform state and resource dependencies
 - Debugging real-world deployment issues
 
-Project Steps
+## Project Steps
+
 Step 1: Upload Static Files to S3
 
 Description:
