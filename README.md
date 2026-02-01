@@ -38,8 +38,8 @@ Step 2: Configure CloudFront Distribution
 Description:
 Created a CloudFront distribution pointing to the S3 bucket for faster content delivery globally.
 
-![CloudFront](cloudfront.png)
-![Portfolio](portfolio.png)
+![CloudFront](/images/cloudfront.png)
+![Portfolio](/images/portfolio.png)
 
 Challenge:
 CloudFront caching caused delayed updates of website changes.
@@ -56,8 +56,8 @@ Table Name: portfolio-table
 Primary Key: page_id (String)
 Attribute: view_count (Number)
 
-![DynamoDB](dynamotableoverview.png)
-![DynamoDBtable](dynamotable.png)
+![DynamoDB](/images/dynamotableoverview.png)
+![DynamoDBtable](/images/dynamotable.png)
 
 
 Step 4: Create Lambda Function
@@ -65,13 +65,13 @@ Step 4: Create Lambda Function
 Description:
 Lambda function updates DynamoDB view_count whenever a page is visited.
 
-![LambdaCode](lambdaCode.png)
-![Lambda Function](lambdaOverview.png)
+![LambdaCode](/images/lambdaCode.png)
+![Lambda Function](/images/lambdaOverview.png)
 
 Challenge:
 Ensuring to provide dynamodb access to lambda
 
-![IAM role](IAMrole.png)
+![IAM role](/images/IAMrole.png)
 
 
 Step 5: Configure API Gateway
@@ -79,8 +79,8 @@ Step 5: Configure API Gateway
 Description:
 Created an API Gateway endpoint to trigger the Lambda function on page visits.
 
-![API gw](apigwrest.png)
-![API gw](apigw.png)
+![API gw](/images/apigwrest.png)
+![API gw](/images/apigw.png)
 
 Challenge:
 API gw manually tested working fine but lambda not invoked in js when opening portfolio in browser
@@ -92,7 +92,7 @@ Step 6: Connect Lambda to API Gateway
 Description:
 Configured the website JS code to call the API Gateway endpoint on page load.
 
-![API in JS](callAPI.png)
+![API in JS](/images/callAPI.png)
 
 
 Challenge:
