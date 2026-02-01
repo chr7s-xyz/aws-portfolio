@@ -85,8 +85,8 @@ Created an API Gateway endpoint to trigger the Lambda function on page visits.
 
 Challenge:
 API gw manually tested working fine but lambda not invoked in js when opening portfolio in browser
-  -Enabled Lambda proxy integration and deployed API.
-  -CORS setup check for headers
+  - Enabled Lambda proxy integration and deployed API.
+  - CORS setup check for headers
 
 Step 6: Connect Lambda to API Gateway
 
@@ -98,7 +98,7 @@ Configured the website JS code to call the API Gateway endpoint on page load.
 
 Challenge:
 CORS error in browser.
-  -Enabled CORS in API Gateway settings.
+  - Enabled CORS in API Gateway settings.
 
 
 Step 7: Test View Tracking
